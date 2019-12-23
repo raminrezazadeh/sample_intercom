@@ -1,10 +1,10 @@
-import express from "express";
+import express from 'express';
+import {applicationConfigs} from './config';
 const app = express();
-const port = 3010;
 
-app.listen(port, (err) => {
+app.listen(applicationConfigs.port, (err) => {
     if (err) {
-        return console.log("Error starting");
+        return console.log('Error starting');
     }
-    return console.log(`Server listening on port ${port}`);
+    return console.log(`Server listening on port ${applicationConfigs.port}`);
 });
