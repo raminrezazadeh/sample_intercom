@@ -1,0 +1,32 @@
+{
+  "name": "intercom",
+  "version": "1.0.0",
+  "description": "This is a sample project.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/raminrezazadeh/sample_intercom.git"
+  },
+  "keywords": [
+    "Intercom",
+    "Sample"
+  ],
+  "author": "Ramin Rezazadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raminrezazadeh/sample_intercom/issues"
+  },
+  "homepage": "https://github.com/raminrezazadeh/sample_intercom#readme",
+  "devDependencies": {
+    "@types/express": "4.17.2",
+    "tslint": "5.20.1",
+    "typescript": "3.7.4"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
