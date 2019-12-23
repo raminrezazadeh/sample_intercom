@@ -17,6 +17,7 @@
         "member-access": [
             false
         ],
+        "no-trailing-whitespace": false,
         "ordered-imports": [
             false
         ],
